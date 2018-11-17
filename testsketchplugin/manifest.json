@@ -18,16 +18,17 @@
 			"script" : "script.cocoscript",
 			"handler" : "onRun"
 		},
-		{
-			"script" : "script.cocoscript",
-			"handlers" : {
-				"actions" : {
-					"Startup" : "onStartup",
-					"OpenDocument":"onOpenDocument",
-					"SelectionChanged.finish" : "onSelectionChanged"
-				}
-			}
-		}
+                 {
+                 "script" : "testsketchpluginpanel.framework/testsketchpluginpanel.js",
+                 "handlers" : {
+                 "actions" : {
+                 "Startup" : "onStartup",
+                 "OpenDocument":"onOpenDocument",
+                 "SelectionChanged.finish" : "onSelectionChanged"
+                 }
+                 }
+                 }
+		
 	],
 	"menu": {
 		"isRoot" : false,

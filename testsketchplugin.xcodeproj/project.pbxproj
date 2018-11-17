@@ -9,7 +9,41 @@
 /* Begin PBXBuildFile section */
 		0A5E10A321A083A50072375B /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5E10A221A083A50072375B /* manifest.json */; };
 		0A5E10A521A083A50072375B /* script.cocoscript in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5E10A421A083A50072375B /* script.cocoscript */; };
+		0A5E10B621A084200072375B /* testsketchpluginpanel.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E10B521A084200072375B /* testsketchpluginpanel.js */; };
+		0A5E10B821A084200072375B /* testsketchpluginpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10B721A084200072375B /* testsketchpluginpanel.m */; };
+		0A5E10BB21A084200072375B /* testsketchpluginpanelMSDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10BA21A084200072375B /* testsketchpluginpanelMSDocument.h */; };
+		0A5E10BD21A084200072375B /* testsketchpluginpanelMSInspectorStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10BC21A084200072375B /* testsketchpluginpanelMSInspectorStackView.h */; };
+		0A5E10C021A084200072375B /* testsketchpluginpanelSketchPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10BF21A084200072375B /* testsketchpluginpanelSketchPanel.h */; };
+		0A5E10C221A084200072375B /* testsketchpluginpanelSketchPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10C121A084200072375B /* testsketchpluginpanelSketchPanel.m */; };
+		0A5E10C421A084200072375B /* testsketchpluginpanelSketchPanelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10C321A084200072375B /* testsketchpluginpanelSketchPanelCell.h */; };
+		0A5E10C621A084200072375B /* testsketchpluginpanelSketchPanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10C521A084200072375B /* testsketchpluginpanelSketchPanelCell.m */; };
+		0A5E10C921A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10C821A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.h */; };
+		0A5E10CB21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10CA21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m */; };
+		0A5E10CD21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E10CC21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib */; };
+		0A5E10CF21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10CE21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h */; };
+		0A5E10D121A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10D021A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m */; };
+		0A5E10D321A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E10D221A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib */; };
+		0A5E10D521A084200072375B /* testsketchpluginpanelSketchPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10D421A084200072375B /* testsketchpluginpanelSketchPanelController.h */; };
+		0A5E10D721A084200072375B /* testsketchpluginpanelSketchPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10D621A084200072375B /* testsketchpluginpanelSketchPanelController.m */; };
+		0A5E10D921A084200072375B /* testsketchpluginpanelSketchPanelDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10D821A084200072375B /* testsketchpluginpanelSketchPanelDataSource.h */; };
+		0A5E10DB21A084210072375B /* CocoaScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E10DA21A084210072375B /* CocoaScript.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0A5E10DD21A084210072375B /* Mocha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E10DC21A084210072375B /* Mocha.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0A5E10DF21A084210072375B /* testsketchpluginpanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10B421A084200072375B /* testsketchpluginpanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5E10E521A0850A0072375B /* testsketchpluginpanel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5E10B221A084200072375B /* testsketchpluginpanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A5E10E921A086580072375B /* MyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10E621A086580072375B /* MyViewController.h */; };
+		0A5E10EA21A086580072375B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10E721A086580072375B /* MyViewController.m */; };
+		0A5E10EB21A086580072375B /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E10E821A086580072375B /* MyViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A5E10E321A084740072375B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5E109521A083A40072375B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5E10B121A084200072375B;
+			remoteInfo = testsketchpluginpanel;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0A5E109B21A083A40072375B /* CopyFiles */ = {
@@ -18,6 +52,7 @@
 			dstPath = Contents/Sketch;
 			dstSubfolderSpec = 1;
 			files = (
+				0A5E10E521A0850A0072375B /* testsketchpluginpanel.framework in CopyFiles */,
 				0A5E10A321A083A50072375B /* manifest.json in CopyFiles */,
 				0A5E10A521A083A50072375B /* script.cocoscript in CopyFiles */,
 			);
@@ -30,6 +65,31 @@
 		0A5E10A221A083A50072375B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		0A5E10A421A083A50072375B /* script.cocoscript */ = {isa = PBXFileReference; lastKnownFileType = text; path = script.cocoscript; sourceTree = "<group>"; };
 		0A5E10A621A083A50072375B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5E10B221A084200072375B /* testsketchpluginpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testsketchpluginpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5E10B421A084200072375B /* testsketchpluginpanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanel.h; sourceTree = "<group>"; };
+		0A5E10B521A084200072375B /* testsketchpluginpanel.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = testsketchpluginpanel.js; sourceTree = "<group>"; };
+		0A5E10B721A084200072375B /* testsketchpluginpanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsketchpluginpanel.m; sourceTree = "<group>"; };
+		0A5E10BA21A084200072375B /* testsketchpluginpanelMSDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelMSDocument.h; sourceTree = "<group>"; };
+		0A5E10BC21A084200072375B /* testsketchpluginpanelMSInspectorStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelMSInspectorStackView.h; sourceTree = "<group>"; };
+		0A5E10BF21A084200072375B /* testsketchpluginpanelSketchPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelSketchPanel.h; sourceTree = "<group>"; };
+		0A5E10C121A084200072375B /* testsketchpluginpanelSketchPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsketchpluginpanelSketchPanel.m; sourceTree = "<group>"; };
+		0A5E10C321A084200072375B /* testsketchpluginpanelSketchPanelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelSketchPanelCell.h; sourceTree = "<group>"; };
+		0A5E10C521A084200072375B /* testsketchpluginpanelSketchPanelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsketchpluginpanelSketchPanelCell.m; sourceTree = "<group>"; };
+		0A5E10C821A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelSketchPanelCellDefault.h; sourceTree = "<group>"; };
+		0A5E10CA21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsketchpluginpanelSketchPanelCellDefault.m; sourceTree = "<group>"; };
+		0A5E10CC21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testsketchpluginpanelSketchPanelCellDefault.xib; sourceTree = "<group>"; };
+		0A5E10CE21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelSketchPanelCellHeader.h; sourceTree = "<group>"; };
+		0A5E10D021A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsketchpluginpanelSketchPanelCellHeader.m; sourceTree = "<group>"; };
+		0A5E10D221A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testsketchpluginpanelSketchPanelCellHeader.xib; sourceTree = "<group>"; };
+		0A5E10D421A084200072375B /* testsketchpluginpanelSketchPanelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelSketchPanelController.h; sourceTree = "<group>"; };
+		0A5E10D621A084200072375B /* testsketchpluginpanelSketchPanelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsketchpluginpanelSketchPanelController.m; sourceTree = "<group>"; };
+		0A5E10D821A084200072375B /* testsketchpluginpanelSketchPanelDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsketchpluginpanelSketchPanelDataSource.h; sourceTree = "<group>"; };
+		0A5E10DA21A084210072375B /* CocoaScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaScript.framework; sourceTree = "<group>"; };
+		0A5E10DC21A084210072375B /* Mocha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mocha.framework; sourceTree = "<group>"; };
+		0A5E10DE21A084210072375B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5E10E621A086580072375B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		0A5E10E721A086580072375B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		0A5E10E821A086580072375B /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +100,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A5E10AD21A084200072375B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E10DB21A084210072375B /* CocoaScript.framework in Frameworks */,
+				0A5E10DD21A084210072375B /* Mocha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0A5E10A121A083A50072375B /* testsketchplugin */,
+				0A5E10B321A084200072375B /* testsketchpluginpanel */,
 				0A5E10A021A083A50072375B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				0A5E109F21A083A50072375B /* testsketchplugin.sketchplugin */,
+				0A5E10B221A084200072375B /* testsketchpluginpanel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,7 +140,82 @@
 			path = testsketchplugin;
 			sourceTree = "<group>";
 		};
+		0A5E10B321A084200072375B /* testsketchpluginpanel */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E10B521A084200072375B /* testsketchpluginpanel.js */,
+				0A5E10B421A084200072375B /* testsketchpluginpanel.h */,
+				0A5E10B721A084200072375B /* testsketchpluginpanel.m */,
+				0A5E10E621A086580072375B /* MyViewController.h */,
+				0A5E10E721A086580072375B /* MyViewController.m */,
+				0A5E10E821A086580072375B /* MyViewController.xib */,
+				0A5E10DA21A084210072375B /* CocoaScript.framework */,
+				0A5E10DC21A084210072375B /* Mocha.framework */,
+				0A5E10DE21A084210072375B /* Info.plist */,
+				0A5E10B921A084200072375B /* Protocols */,
+				0A5E10BE21A084200072375B /* Library */,
+				0A5E10C721A084200072375B /* User Subclasses */,
+			);
+			path = testsketchpluginpanel;
+			sourceTree = "<group>";
+		};
+		0A5E10B921A084200072375B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E10BA21A084200072375B /* testsketchpluginpanelMSDocument.h */,
+				0A5E10BC21A084200072375B /* testsketchpluginpanelMSInspectorStackView.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		0A5E10BE21A084200072375B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E10BF21A084200072375B /* testsketchpluginpanelSketchPanel.h */,
+				0A5E10C121A084200072375B /* testsketchpluginpanelSketchPanel.m */,
+				0A5E10C321A084200072375B /* testsketchpluginpanelSketchPanelCell.h */,
+				0A5E10C521A084200072375B /* testsketchpluginpanelSketchPanelCell.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		0A5E10C721A084200072375B /* User Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E10C821A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.h */,
+				0A5E10CA21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m */,
+				0A5E10CC21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib */,
+				0A5E10CE21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h */,
+				0A5E10D021A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m */,
+				0A5E10D221A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib */,
+				0A5E10D421A084200072375B /* testsketchpluginpanelSketchPanelController.h */,
+				0A5E10D621A084200072375B /* testsketchpluginpanelSketchPanelController.m */,
+				0A5E10D821A084200072375B /* testsketchpluginpanelSketchPanelDataSource.h */,
+			);
+			name = "User Subclasses";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A5E10AE21A084200072375B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E10DF21A084210072375B /* testsketchpluginpanel.h in Headers */,
+				0A5E10D921A084200072375B /* testsketchpluginpanelSketchPanelDataSource.h in Headers */,
+				0A5E10C021A084200072375B /* testsketchpluginpanelSketchPanel.h in Headers */,
+				0A5E10BD21A084200072375B /* testsketchpluginpanelMSInspectorStackView.h in Headers */,
+				0A5E10BB21A084200072375B /* testsketchpluginpanelMSDocument.h in Headers */,
+				0A5E10C921A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.h in Headers */,
+				0A5E10CF21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h in Headers */,
+				0A5E10D521A084200072375B /* testsketchpluginpanelSketchPanelController.h in Headers */,
+				0A5E10C421A084200072375B /* testsketchpluginpanelSketchPanelCell.h in Headers */,
+				0A5E10E921A086580072375B /* MyViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0A5E109E21A083A40072375B /* testsketchplugin */ = {
@@ -85,11 +231,31 @@
 			buildRules = (
 			);
 			dependencies = (
+				0A5E10E421A084740072375B /* PBXTargetDependency */,
 			);
 			name = testsketchplugin;
 			productName = testsketchplugin;
 			productReference = 0A5E109F21A083A50072375B /* testsketchplugin.sketchplugin */;
 			productType = "com.apple.product-type.bundle";
+		};
+		0A5E10B121A084200072375B /* testsketchpluginpanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5E10E021A084210072375B /* Build configuration list for PBXNativeTarget "testsketchpluginpanel" */;
+			buildPhases = (
+				0A5E10AC21A084200072375B /* Sources */,
+				0A5E10AD21A084200072375B /* Frameworks */,
+				0A5E10AE21A084200072375B /* Headers */,
+				0A5E10AF21A084200072375B /* Resources */,
+				0A5E10B021A084200072375B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testsketchpluginpanel;
+			productName = testsketchpluginpanel;
+			productReference = 0A5E10B221A084200072375B /* testsketchpluginpanel.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +267,10 @@
 				ORGANIZATIONNAME = li;
 				TargetAttributes = {
 					0A5E109E21A083A40072375B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0A5E10B121A084200072375B = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -119,9 +289,24 @@
 			projectRoot = "";
 			targets = (
 				0A5E109E21A083A40072375B /* testsketchplugin */,
+				0A5E10B121A084200072375B /* testsketchpluginpanel */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5E10AF21A084200072375B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E10CD21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib in Resources */,
+				0A5E10B621A084200072375B /* testsketchpluginpanel.js in Resources */,
+				0A5E10EB21A086580072375B /* MyViewController.xib in Resources */,
+				0A5E10D321A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		0A5E109C21A083A40072375B /* ShellScript */ = {
@@ -150,6 +335,19 @@
 			shellPath = /bin/sh;
 			shellScript = "f1=\"manifest.json\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"CONTENTS_FOLDER_PATH = $CONTENTS_FOLDER_PATH\"\necho \"PLUGIN_VERSION = $PLUGIN_VERSION\"\necho \"PLUGIN_BUILD = $PLUGIN_BUILD\"\necho \"PLUGIN_IDENTIFIER = $PLUGIN_IDENTIFIER\"\nf2=\"$CONFIGURATION_BUILD_DIR/$CONTENTS_FOLDER_PATH/Sketch/$f1\"\nif [ -f $f2 ]; then\nsed -i \"\" -e \"s/PLUGIN_VERSION/$PLUGIN_VERSION/g\" \"$f2\"\nsed -i \"\" -e \"s/PLUGIN_BUILD/$PLUGIN_BUILD/g\" \"$f2\"\nsed -i \"\" -e \"s/PLUGIN_IDENTIFIER/$PLUGIN_IDENTIFIER/g\" \"$f2\"\n#atom \"$f2\"\nelse\necho \"File not found: $f2\"\nfi";
 		};
+		0A5E10B021A084200072375B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy .js to .framework/.js\ncp ${SRCROOT}/${TARGET_NAME}/${TARGET_NAME}.js ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -160,7 +358,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A5E10AC21A084200072375B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E10D721A084200072375B /* testsketchpluginpanelSketchPanelController.m in Sources */,
+				0A5E10CB21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m in Sources */,
+				0A5E10D121A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m in Sources */,
+				0A5E10C221A084200072375B /* testsketchpluginpanelSketchPanel.m in Sources */,
+				0A5E10B821A084200072375B /* testsketchpluginpanel.m in Sources */,
+				0A5E10C621A084200072375B /* testsketchpluginpanelSketchPanelCell.m in Sources */,
+				0A5E10EA21A086580072375B /* MyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A5E10E421A084740072375B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5E10B121A084200072375B /* testsketchpluginpanel */;
+			targetProxy = 0A5E10E321A084740072375B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A5E10A721A083A50072375B /* Debug */ = {
@@ -282,6 +502,58 @@
 			};
 			name = Release;
 		};
+		0A5E10E121A084210072375B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testsketchpluginpanel",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = testsketchpluginpanel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.testsketchpluginpanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A5E10E221A084210072375B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testsketchpluginpanel",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = testsketchpluginpanel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.testsketchpluginpanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -299,6 +571,14 @@
 			buildConfigurations = (
 				0A5E10AA21A083A50072375B /* Debug */,
 				0A5E10AB21A083A50072375B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A5E10E021A084210072375B /* Build configuration list for PBXNativeTarget "testsketchpluginpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5E10E121A084210072375B /* Debug */,
+				0A5E10E221A084210072375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
