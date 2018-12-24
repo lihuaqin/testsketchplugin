@@ -8,7 +8,7 @@
         <customObject id="-2" userLabel="File's Owner"/>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView id="VOz-wC-YDv" customClass="testsketchpluginpanelSketchPanelCellDefault">
+        <customView id="VOz-wC-YDv" customClass="mytest">
             <rect key="frame" x="0.0" y="0.0" width="212" height="99"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
@@ -37,7 +37,7 @@
             </subviews>
             <connections>
                 <outlet property="imageView" destination="cLs-2r-mql" id="cTN-XB-bVh"/>
-                <outlet property="titleLabel" destination="5z4-SI-Jt2" id="WZj-wM-ReG"/>
+                <outlet property="testtil" destination="5z4-SI-Jt2" id="MMA-Ew-t2D"/>
             </connections>
             <point key="canvasLocation" x="186" y="172.5"/>
         </customView>

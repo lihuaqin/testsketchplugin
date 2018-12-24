@@ -10,6 +10,7 @@
 #import "testsketchpluginpanelSketchPanelCell.h"
 #import "testsketchpluginpanelSketchPanelCellHeader.h"
 #import "testsketchpluginpanelSketchPanelCellDefault.h"
+#import "mytest.h"
 #import "testsketchpluginpanelSketchPanel.h"
 #import "testsketchpluginpanelSketchPanelDataSource.h"
 
@@ -58,15 +59,21 @@
 }
 
 - (testsketchpluginpanelSketchPanelCell *)testsketchpluginpanelSketchPanel:(testsketchpluginpanelSketchPanel *)panel itemForRowAtIndex:(NSUInteger)index {
-    testsketchpluginpanelSketchPanelCellDefault *cell = (testsketchpluginpanelSketchPanelCellDefault *)[panel dequeueReusableCellForReuseIdentifier:@"cell"];
+    //testsketchpluginpanelSketchPanelCellDefault *cell = (testsketchpluginpanelSketchPanelCellDefault *)[panel dequeueReusableCellForReuseIdentifier:@"cell"];
+    mytest *cell = (mytest *)[panel dequeueReusableCellForReuseIdentifier:@"cell"];
     if ( ! cell) {
-        cell = [testsketchpluginpanelSketchPanelCellDefault loadNibNamed:@"testsketchpluginpanelSketchPanelCellDefault"];
+        //cell = [testsketchpluginpanelSketchPanelCellDefault loadNibNamed:@"testsketchpluginpanelSketchPanelCellDefault"];
+        cell = [mytest loadNibNamed:@"mytest"];
+
         cell.reuseIdentifier = @"cell";
     }
 
-    id layer = self.selection[index];
-    cell.titleLabel.stringValue = [layer name];
-    cell.imageView.image = [layer valueForKeyPath:@"previewImages.LayerListPreviewUnfocusedImage"];
+    //id layer = self.selection[index];
+    //cell.titleLabel.stringValue = [layer name];
+    //cell.imageView.image = [layer valueForKeyPath:@"previewImages.LayerListPreviewUnfocusedImage"];
+    //cell.titleLabel.stringValue = @"tttt";
+    //cell.imageView.image = @"yyy";
+    cell.testtil.stringValue = @"rrrr";
 
     return cell;
 }

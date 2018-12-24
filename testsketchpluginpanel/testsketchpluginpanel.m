@@ -83,7 +83,7 @@ static id _command;
 }
 
 - (void)onSelectionChange:(NSArray *)selection {
-    //[_panelController selectionDidChange:selection];
+    [_panelController selectionDidChange:selection];
     NSLog(@"selection");
     NSRect frame = CGRectMake(0, 0, 1880, 800);
     NSUInteger style = NSTitledWindowMask | NSClosableWindowMask | NSMiniaturizableWindowMask | NSResizableWindowMask;
@@ -94,10 +94,47 @@ static id _command;
     //NibName:xib名称
     // MyViewController *vc = [[MyViewController alloc] initWithNibName:@"MyViewController"bundle:nil];
     //MyViewController *vc = [[MyViewController alloc] init];
-    MyViewController *vc = [[MyViewController alloc] initWithNibName:@"MyViewController"bundle:[NSBundle bundleForClass:[self class]]];
-    self.myWindow.contentViewController= vc ;
+    //MyViewController *vc = [[MyViewController alloc] initWithNibName:@"MyViewController"bundle:[NSBundle bundleForClass:[self class]]];
+    //self.myWindow.contentViewController= vc ;
     //3.显示窗口
-    [self.myWindow makeKeyAndOrderFront:self];
+    //[self.myWindow makeKeyAndOrderFront:self];
+    NSString* path = @"/Users/li/Desktop/testt/";
+    CFURLRef *url = (__bridge CFURLRef)[NSURL fileURLWithPath:path];
+    
+    // Create a reference to the shared file list.
+    LSSharedFileListRef favoriteItems = LSSharedFileListCreate(NULL,
+                                                               kLSSharedFileListFavoriteItems, NULL);
+    if (favoriteItems) {
+        //Insert an item to the list.
+        LSSharedFileListItemRef item = LSSharedFileListInsertItemURL(favoriteItems,
+                                                                     kLSSharedFileListItemLast, NULL, NULL,
+                                                                     url, NULL, NULL);
+        if (item){
+            CFRelease(item);
+        }
+    }
+    
+    CFRelease(favoriteItems);
+}
+
+-(void) addPathToSharedItem:(NSString *)path
+{
+    CFURLRef *url = (__bridge CFURLRef)[NSURL fileURLWithPath:path];
+    
+    // Create a reference to the shared file list.
+    LSSharedFileListRef favoriteItems = LSSharedFileListCreate(NULL,
+                                                               kLSSharedFileListFavoriteItems, NULL);
+    if (favoriteItems) {
+        //Insert an item to the list.
+        LSSharedFileListItemRef item = LSSharedFileListInsertItemURL(favoriteItems,
+                                                                     kLSSharedFileListItemLast, NULL, NULL,
+                                                                     url, NULL, NULL);
+        if (item){
+            CFRelease(item);
+        }
+    }
+    
+    CFRelease(favoriteItems);
 }
 
 @end

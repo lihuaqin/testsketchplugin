@@ -63,7 +63,8 @@
         [sectionViewControllers addObject:self];
     }
 
-    NSUInteger count = [self.datasource numberOfRowsFortestsketchpluginpanelSketchPanel:self];
+    //NSUInteger count = [self.datasource numberOfRowsFortestsketchpluginpanelSketchPanel:self];
+    NSUInteger count = 5;
     NSMutableArray *items = [NSMutableArray array];
 
     // Add header

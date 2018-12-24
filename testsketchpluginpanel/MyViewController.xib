@@ -27,5 +27,10 @@
                 </webView>
             </subviews>
         </customView>
+        <customObject id="hSi-65-Cfx" customClass="MyViewController">
+            <connections>
+                <outlet property="myWebView" destination="qzZ-KP-2Lu" id="7tG-qd-4fM"/>
+            </connections>
+        </customObject>
     </objects>
 </document>

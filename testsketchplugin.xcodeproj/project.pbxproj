@@ -33,6 +33,9 @@
 		0A5E10E921A086580072375B /* MyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E10E621A086580072375B /* MyViewController.h */; };
 		0A5E10EA21A086580072375B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E10E721A086580072375B /* MyViewController.m */; };
 		0A5E10EB21A086580072375B /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E10E821A086580072375B /* MyViewController.xib */; };
+		0A983C3921CF414E00F16DEA /* mytest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A983C3621CF414E00F16DEA /* mytest.h */; };
+		0A983C3A21CF414E00F16DEA /* mytest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A983C3721CF414E00F16DEA /* mytest.m */; };
+		0A983C3B21CF414E00F16DEA /* mytest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A983C3821CF414E00F16DEA /* mytest.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,9 @@
 		0A5E10E621A086580072375B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		0A5E10E721A086580072375B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		0A5E10E821A086580072375B /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		0A983C3621CF414E00F16DEA /* mytest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mytest.h; sourceTree = "<group>"; };
+		0A983C3721CF414E00F16DEA /* mytest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mytest.m; sourceTree = "<group>"; };
+		0A983C3821CF414E00F16DEA /* mytest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mytest.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,9 @@
 				0A5E10C821A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.h */,
 				0A5E10CA21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m */,
 				0A5E10CC21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib */,
+				0A983C3621CF414E00F16DEA /* mytest.h */,
+				0A983C3721CF414E00F16DEA /* mytest.m */,
+				0A983C3821CF414E00F16DEA /* mytest.xib */,
 				0A5E10CE21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h */,
 				0A5E10D021A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m */,
 				0A5E10D221A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib */,
@@ -211,6 +220,7 @@
 				0A5E10CF21A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.h in Headers */,
 				0A5E10D521A084200072375B /* testsketchpluginpanelSketchPanelController.h in Headers */,
 				0A5E10C421A084200072375B /* testsketchpluginpanelSketchPanelCell.h in Headers */,
+				0A983C3921CF414E00F16DEA /* mytest.h in Headers */,
 				0A5E10E921A086580072375B /* MyViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +312,7 @@
 				0A5E10CD21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.xib in Resources */,
 				0A5E10B621A084200072375B /* testsketchpluginpanel.js in Resources */,
 				0A5E10EB21A086580072375B /* MyViewController.xib in Resources */,
+				0A983C3B21CF414E00F16DEA /* mytest.xib in Resources */,
 				0A5E10D321A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5E10D721A084200072375B /* testsketchpluginpanelSketchPanelController.m in Sources */,
+				0A983C3A21CF414E00F16DEA /* mytest.m in Sources */,
 				0A5E10CB21A084200072375B /* testsketchpluginpanelSketchPanelCellDefault.m in Sources */,
 				0A5E10D121A084200072375B /* testsketchpluginpanelSketchPanelCellHeader.m in Sources */,
 				0A5E10C221A084200072375B /* testsketchpluginpanelSketchPanel.m in Sources */,
@@ -573,6 +585,7 @@
 				0A5E10AB21A083A50072375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A5E10E021A084210072375B /* Build configuration list for PBXNativeTarget "testsketchpluginpanel" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +594,7 @@
 				0A5E10E221A084210072375B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

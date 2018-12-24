@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+
 //! Project version number for testsketchpluginpanel.
 FOUNDATION_EXPORT double testsketchpluginpanelVersionNumber;
 
